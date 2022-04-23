@@ -1,0 +1,56 @@
+h1{
+text-align:center;
+background-color:blue;
+font-family:Arial;
+text-shadow:3px 2px 3px;
+border:3px solid red;
+border-radius:10px;
+padding:10px;
+}
+h2{
+font-family:Courier New;
+border-bottom:3px solid blue;
+background-color:#d5d5d5;
+}
+table{
+border-collapse:collapse;
+width:100%
+}
+th{
+border:1px solid black;
+text-align:center;
+padding:10px;
+background-color:#d3d3d3;
+}
+td{
+border:1px solid black;
+text-align:center;
+padding:10px;
+}
+tr:nth-child(even){
+background-color:#b0d1e4;
+}
+tr:nth-child(odd){
+background-color:#6aabd1;
+}
+input[type="text"],input[type="email"],input[type="social media"]{
+border:1px solid green;
+width:90%;
+padding:5px;
+}
+input[type="button"]:hover{
+background-color:gray;
+}
+textarea{
+border:1px solid green;
+width:90%;
+padding:5px;
+}
+input{
+border:1px solid green;
+padding:5px;
+}
+label{
+font-weight:bold;
+color:green;
+}
